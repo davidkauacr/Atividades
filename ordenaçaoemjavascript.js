@@ -1,5 +1,4 @@
-<meta charset="UTF-8">]
-<script>
+
 
 function quicksort(arr, left = 0, right = arr.length - 1) {
   if (left < right) {
@@ -23,7 +22,5 @@ function partition(arr, left, right) {
   return i + 1;
 }
 
-// Exemplo de uso
 const arr = [7, 2, 1, 6, 8, 5, 3, 4];
-console.log(quicksort(arr)); // Saída: [1, 2, 3, 4, 5, 6, 7, 8]
-</script>
+console.log(quicksort(arr)); 
