@@ -1,5 +1,4 @@
-<meta charset="UTF-8">
-<script>
+
 function countIntegers(firstValue, N) {
   let count = 0;
   for (let i = firstValue; i <= N; i++) {
@@ -15,4 +14,3 @@ const firstValue = 3;
 const N = 10;
 const result = countIntegers(firstValue, N);
 console.log(result); // imprime 8
-</script>
