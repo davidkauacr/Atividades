@@ -21,7 +21,7 @@ public class Main {
             }
         }
 
-        // Imprime o resultado
+        
         System.out.println(count);
     }
 }
