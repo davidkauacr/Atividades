@@ -1,13 +1,13 @@
 public class MDC {
     public static int calcularMDC(int a, int b) {
-        // garante que a seja maior ou igual a b
+        
         if (b > a) {
             int temp = a;
             a = b;
             b = temp;
         }
 
-        // executa o algoritmo de Euclides
+        
         while (b != 0) {
             int temp = b;
             b = a % b;
