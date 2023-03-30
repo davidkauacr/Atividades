@@ -8,8 +8,6 @@ function countIntegers(firstValue, N) {
   }
   return count;
 }
-
-// Exemplo de uso
 const firstValue = 3;
 const N = 10;
 const result = countIntegers(firstValue, N);
