@@ -1,5 +1,5 @@
-<meta charset="UTF-8">
-<Script>
+
+
 function mdc(a, b) {
   if (b === 0) {
     return a;
@@ -7,5 +7,3 @@ function mdc(a, b) {
     return mdc(b, a % b);
   }
 }
-
-</Script>
