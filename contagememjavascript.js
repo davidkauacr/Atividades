@@ -11,4 +11,4 @@ function countIntegers(firstValue, N) {
 const firstValue = 3;
 const N = 10;
 const result = countIntegers(firstValue, N);
-console.log(result); // imprime 8
+console.log(result); 
